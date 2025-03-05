@@ -1,0 +1,25 @@
+{
+  "id": null,
+  "uid": "fastapi-metrics",
+  "title": "FastAPI Metrics",
+  "timezone": "browser",
+  "panels": [
+    {
+      "type": "graph",
+      "title": "CPU Usage",
+      "targets": [{ "expr": "cpu_usage", "legendFormat": "CPU Usage", "refId": "A" }]
+    },
+    {
+      "type": "graph",
+      "title": "Memory Usage",
+      "targets": [{ "expr": "memory_usage", "legendFormat": "Memory Usage", "refId": "B" }]
+    },
+    {
+      "type": "graph",
+      "title": "Messages Received",
+      "targets": [{ "expr": "messages_total", "legendFormat": "Messages per choice", "refId": "C" }]
+    }
+  ],
+  "schemaVersion": 16,
+  "version": 0
+}
